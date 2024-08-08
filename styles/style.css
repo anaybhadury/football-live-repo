@@ -6,4 +6,44 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    color: white;
 }
+
+/* similar content */
+.btn{
+    padding: 10px 20px;
+    background-color: rgb(224, 44, 109);
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+/* navbar content start */
+.main-banner-content{
+    max-width: 90%;
+    margin: 0 auto;
+    background-color: rgb(45, 37, 160);
+    height: 50rem;
+}
+.navbar-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 120px 0 120px;
+}
+.left-side-content ul{
+    list-style: none;
+    display: flex;
+}
+.left-side-content ul a{
+    text-decoration: none;
+    margin-right: 3rem;
+}
+
+/* navbar content end */
+
+
+
+
+
+
