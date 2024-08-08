@@ -12,6 +12,7 @@
     }
     .hamburger-menu{
         display: block;
+        color: white;
     }
 
     /* banner section start */
@@ -31,6 +32,22 @@
         height: 215px;
     }
     /* banner section end */
+
+    /* player card section start */
+    .player-card-container{
+        max-width: 100%;
+        padding: 5px;
+    }
+    .player-card-content{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .player-card img{
+        width: 350px;
+    }
+
+    /* player card section end */
 }
 
 
@@ -69,6 +86,15 @@
         height: 280px;
     }
     /* banner section end */
+
+    /* player card section start */
+    .player-card-container{
+        max-width: 100%;
+    }
+    .player-card img{
+        width: 218px;
+    }
+    /* player card section end */
 }
 
 
