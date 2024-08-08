@@ -11,7 +11,7 @@
 
 /* similar content */
 .btn{
-    padding: 10px 20px;
+    padding: 10px 15px;
     background-color: rgb(224, 44, 109);
     font-size: 1rem;
     font-weight: 500;
@@ -19,7 +19,7 @@
     cursor: pointer;
 }
 
-/* navbar content start */
+/* navbar content styles start */
 .main-banner-content{
     max-width: 90%;
     margin: 0 auto;
@@ -31,16 +31,18 @@
     justify-content: space-between;
     padding: 40px 120px 0 120px;
 }
-.left-side-content ul{
+.left-nav-content ul{
     list-style: none;
     display: flex;
 }
-.left-side-content ul a{
+.left-nav-content ul a{
     text-decoration: none;
     margin-right: 3rem;
 }
-
-/* navbar content end */
+.hamburger-menu{
+    display: none;
+}
+/* navbar content styles end */
 
 
 

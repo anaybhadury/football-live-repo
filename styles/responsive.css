@@ -1,0 +1,41 @@
+/* small device responsive */
+@media screen and (max-width: 576px) {
+    .main-banner-content{
+        max-width: 100%;
+    }
+    .navbar-content{
+        padding: 15px;
+        align-items: center;
+    }
+    .left-nav-content{
+        display: none;
+    }
+    .hamburger-menu{
+        display: block;
+    }
+}
+
+
+
+/* tablet device responsive */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .main-banner-content{
+        max-width: 100%;
+    }
+    .navbar-content{
+        padding: 15px;
+        align-items: center;
+    }
+    .left-nav-content ul a{
+        margin-right: 1.8rem;
+    }
+    .hamburger-menu{
+        display: none;
+    }
+}
+
+
+
+
+
+
