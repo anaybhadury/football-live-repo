@@ -65,6 +65,16 @@
         margin-bottom: 10px;
     }
     /* hightlights section end */
+
+    /* footer section start */
+    .footer-container{
+        max-width: 100%;
+        margin-top: 25px;
+    }
+    .footer-container img{
+        width: 300px;
+    }
+    /* footer section end */
 }
 
 
@@ -128,8 +138,11 @@
     .left-highlight-content button{
         margin-bottom: 10px;
     }
-
     /* highlights section end */
+
+    /* footer section start */
+    
+    /* footer section end */
 }
 
 
