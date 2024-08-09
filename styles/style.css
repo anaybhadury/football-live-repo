@@ -38,6 +38,7 @@
 .left-nav-content ul a{
     text-decoration: none;
     margin-right: 3rem;
+    color: white;
 }
 .hamburger-menu{
     display: none;
@@ -89,5 +90,41 @@
     width: 385px;
 }
 /* card section styles end */
+
+/* highlights section styles start */
+.highlights-container{
+    max-width: 67%;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-highlight-content h1{
+    font-size: 3.2rem;
+    font-weight: bold;
+    width: 501px;
+}
+.left-highlight-content p{
+    color: rgb(108, 108, 108);
+    margin-bottom: 15px;
+    width: 460px;
+}
+.left-highlight-content{
+    flex-basis: 50%;
+}
+.right-highlight-content{
+    flex-basis: 55%;
+}
+.right-highlight-content img{
+    width: 100%;
+}
+/* highlights section styles end */
+
+
+
+
+
+
 
 
