@@ -36,7 +36,6 @@
     /* player card section start */
     .player-card-container{
         max-width: 100%;
-        padding: 5px;
     }
     .player-card-content{
         display: grid;
@@ -48,6 +47,24 @@
     }
 
     /* player card section end */
+
+    /* hightlights section start */
+    .highlights-container{
+        flex-direction: column;
+        max-width: 100%;
+        padding: 15px;
+    }
+    .left-highlight-content h1{
+        width: 100%;
+        font-size: 2.5rem;
+    }
+    .left-highlight-content p{
+        width: 100%;
+    }
+    .left-highlight-content button{
+        margin-bottom: 10px;
+    }
+    /* hightlights section end */
 }
 
 
@@ -95,6 +112,24 @@
         width: 218px;
     }
     /* player card section end */
+
+    /* highlights section start */
+    .highlights-container{
+        max-width: 100%;
+        padding: 15px;
+    }
+    .left-highlight-content h1{
+        width: 100%;
+        font-size: 2.5rem;
+    }
+    .left-highlight-content p{
+        width: 100%;
+    }
+    .left-highlight-content button{
+        margin-bottom: 10px;
+    }
+
+    /* highlights section end */
 }
 
 
